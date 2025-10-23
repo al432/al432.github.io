@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Página con imagen</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 2rem; color: #111; background: #f9f9fb; }
+    .container { max-width: 800px; margin: 0 auto; }
+    figure { margin: 0; }
+    img { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    figcaption { font-size: 0.9rem; color: #555; margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Imagen de ejemplo</h1>
+    <p>Esta página incluye una imagen. Reemplaza <code>images/ejemplo.jpg</code> por la ruta real de tu imagen.</p>
+    <figure>
+      <img src="images/ejemplo.jpg" alt="Descripción de la imagen de ejemplo" loading="lazy" decoding="async">
+      <figcaption>Figura 1: Pie de foto descriptivo.</figcaption>
+    </figure>
+  </main>
+</body>
+</html>
